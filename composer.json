@@ -1,0 +1,20 @@
+{
+    "name": "datmc666/3-php1",
+    "autoload": {
+        "psr-4": {
+            "Datmc666\\3Php1\\": "src/"
+        },
+        "files": [
+            "src/Cli.php",
+            "src/Engine.php",
+            "src/games/IsEven.php"
+        ]
+    },
+    "bin": [
+        "bin/brain-games",
+        "bin/brain-even"
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1"
+    }
+}

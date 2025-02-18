@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+namespace BrainGames\Cli;
+
+$autoloadPath = __DIR__ . '/../vendor/autoload.php';
+
+require_once $autoloadPath;
+
+even();
