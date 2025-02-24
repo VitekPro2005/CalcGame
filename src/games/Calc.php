@@ -8,8 +8,8 @@ const MAX_EVEN_NUMBER = 100;
 function calc(): void
 {
     play('Answer the result of the calculation.', function () {
-        $randomNum1 = (int)rand(1,100);
-        $randomNum2 = (int)rand(1,100);
+        $randomNum1 = (int)rand(MIN_EVEN_NUMBER, MAX_EVEN_NUMBER);
+        $randomNum2 = (int)rand(MIN_EVEN_NUMBER, MAX_EVEN_NUMBER);
 
         $calculations = ['+','-','*'];
         $calculation = $calculations[array_rand($calculations)];
