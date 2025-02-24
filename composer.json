@@ -7,12 +7,14 @@
         "files": [
             "src/Cli.php",
             "src/Engine.php",
-            "src/games/IsEven.php"
+            "src/games/IsEven.php",
+            "src/games/Calc.php"
         ]
     },
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "require": {
         "wp-cli/php-cli-tools": "^0.12.1"

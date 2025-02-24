@@ -58,5 +58,7 @@ function play(string $description, callable $game): void
 
 function writeToLog(string $message): void
 {
-    file_put_contents('log/games.log', $message . PHP_EOL, FILE_APPEND);
+    $date = date('d-m-Y H:i');
+    $logrecord = "[$date] $message";
+    file_put_contents('log/games.log', $logrecord . PHP_EOL, FILE_APPEND);
 }
